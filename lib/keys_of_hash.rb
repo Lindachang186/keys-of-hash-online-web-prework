@@ -3,8 +3,8 @@ class Hash
     animals = []
     animals << arguments
       self.each do |key, value|
+        binding.pry
         value.each do |item, data|
-          binding.pry
       puts data
     end
     end
