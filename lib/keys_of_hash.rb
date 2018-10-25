@@ -7,6 +7,7 @@ class Hash
   def keys_of(*arguments)
       self.map do |key, value|
         if arguments.include?("#{value}")
+          return self
         end
       end
   end
