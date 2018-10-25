@@ -7,7 +7,7 @@ class Hash
   def keys_of(*arguments)
 
       self.each do |key, value|
-        if value == "Madagascar"
+        if value == argument
           puts key
         end
     end
