@@ -5,9 +5,9 @@
 
 class Hash
   def keys_of(*arguments)
-      self.collect do |key, value|
+      self.map do |key, value|
         if arguments.include?(value)
+        end
       end
-    end
   end
 end
