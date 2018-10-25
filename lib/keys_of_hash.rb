@@ -5,9 +5,10 @@
 
 class Hash
   def keys_of(*arguments)
-  
+
       self.each do |key, value|
-        puts key
+        if value == "Madagascar"
+          puts key
     end
   end
 end
