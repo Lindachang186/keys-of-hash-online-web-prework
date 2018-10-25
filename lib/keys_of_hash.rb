@@ -5,8 +5,6 @@
 
 class Hash
   def keys_of(*arguments)
-    animals = []
-    animals << arguments
       self.each do |key, value|
         if arguments.include?(value)
         return key
