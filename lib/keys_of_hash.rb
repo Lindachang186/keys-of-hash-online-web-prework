@@ -7,7 +7,6 @@ class Hash
   def keys_of(*arguments)
       self.select do |key, value|
         arguments.include?("#{value}")
-        end
       end
   end
 end
