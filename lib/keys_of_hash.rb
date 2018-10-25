@@ -6,8 +6,7 @@ require "pry"
 class Hash
   def keys_of(*arguments)
       self.select do |key, value|
-        arguments.include?("#{value}")
-        key
+        return arguments.include?("#{value}")
       end
   end
 end
