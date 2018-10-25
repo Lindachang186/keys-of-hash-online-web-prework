@@ -9,6 +9,7 @@ class Hash
       self.each do |key, value|
         if value == "Madagascar"
           puts key
+        end
     end
   end
 end
