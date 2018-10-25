@@ -6,5 +6,6 @@ class Hash
         value.each do |item|
       puts item
     end
+    end
   end
 end
