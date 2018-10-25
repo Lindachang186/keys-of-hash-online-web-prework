@@ -1,6 +1,6 @@
 class Hash
   def keys_of(*arguments)
-    a = *arguments
-    animals = *"red-footed tortoise"
+    animals = []
+    animals << arguments
   end
 end
