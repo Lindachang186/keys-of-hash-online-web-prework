@@ -3,8 +3,8 @@ class Hash
     animals = []
     animals << arguments
       self.each do |key, value|
-        value.each do |item|
-      puts item
+        value.each do |item, data|
+      puts data
     end
     end
   end
