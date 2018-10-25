@@ -5,9 +5,8 @@ require "pry"
 
 class Hash
   def keys_of(*arguments)
-      self.map do |key, value|
+      self.select do |key, value|
         if arguments.include?("#{value}")
-          return key
         end
       end
   end
