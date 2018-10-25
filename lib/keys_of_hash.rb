@@ -4,6 +4,7 @@ class Hash
     animals << arguments
       self.each do |key, value|
         value.each do |item, data|
+          binding.pry
       puts data
     end
     end
